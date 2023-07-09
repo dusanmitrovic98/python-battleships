@@ -95,3 +95,12 @@ def play_game():
             print("Game Over. You lost!")
             break
 
+        if computer_ships == 0:
+            print("Congratulations! You won!")
+            break
+
+        if turn == turns - 1:
+            print("Game Over")
+
+# Play the game
+play_game()
