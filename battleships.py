@@ -69,3 +69,4 @@ def play_game():
             computer_ships -= 1
         else:
             print("You missed the battleship!")
+            player_board[guess_row][guess_col] = "M"
