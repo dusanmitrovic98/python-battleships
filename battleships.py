@@ -17,3 +17,4 @@ for x in range(board_size):
 def print_board(board):
     symbols = {" ": " ", "S": " ", "X": "X", "M": "M"}
     line = " " + "----" * board_size
+    print("  " + " ".join([str(i) for i in range(board_size)]))
