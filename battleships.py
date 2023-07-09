@@ -67,3 +67,4 @@ def play_game():
             print("Congratulations! You sunk one of your opponent's battleships!")
             player_board[guess_row][guess_col] = "X"
             computer_ships -= 1
+        else:
