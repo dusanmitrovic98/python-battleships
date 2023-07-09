@@ -34,3 +34,4 @@ def place_ships(board, num_ships):
             ships_placed += 1
 
 # Function to play the game
+def play_game():
