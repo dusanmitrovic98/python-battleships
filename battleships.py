@@ -75,3 +75,4 @@ def play_game():
         comp_guess_row = random.randint(0, board_size - 1)
         comp_guess_col = random.randint(0, board_size - 1)
 
+        if board[comp_guess_row][comp_guess_col] == "X" or board[comp_guess_row][comp_guess_col] == "M":
