@@ -74,3 +74,4 @@ def play_game():
         # Computer's turn
         comp_guess_row = random.randint(0, board_size - 1)
         comp_guess_col = random.randint(0, board_size - 1)
+
