@@ -92,3 +92,4 @@ def play_game():
         print_board(board)
 
         if player_ships == 0:
+            print("Game Over. You lost!")
