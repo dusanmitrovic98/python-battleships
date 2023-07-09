@@ -87,3 +87,4 @@ def play_game():
 
         # Print the updated boards
         print("Player's Board:")
+        print_board(player_board)
