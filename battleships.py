@@ -50,3 +50,4 @@ def play_game():
     turns = 10  # Number of turns allowed
 
     for turn in range(turns):
+        print("Turn", turn + 1)
