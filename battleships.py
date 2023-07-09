@@ -7,3 +7,4 @@ for x in range(board_size):
     board.append([" "] * board_size)
 
 # Create the player and computer boards
+player_board = []
