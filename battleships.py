@@ -24,3 +24,4 @@ def print_board(board):
         print(line)
 
 # Function to place ships on the board
+def place_ships(board, num_ships):
