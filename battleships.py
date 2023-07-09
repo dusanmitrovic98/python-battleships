@@ -61,3 +61,4 @@ def play_game():
             or guess_col >= board_size
         ):
             print("Oops, that's not even in the ocean.")
+        elif player_board[guess_row][guess_col] == "X" or player_board[guess_row][guess_col] == "M":
