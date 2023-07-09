@@ -77,3 +77,4 @@ def play_game():
 
         if board[comp_guess_row][comp_guess_col] == "X" or board[comp_guess_row][comp_guess_col] == "M":
             print("Computer guessed that one already.")
+        elif board[comp_guess_row][comp_guess_col] == "S":
