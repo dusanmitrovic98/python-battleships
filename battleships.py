@@ -46,3 +46,4 @@ def play_game():
 
     # Place computer's ships
     place_ships(computer_board, computer_ships)
+
