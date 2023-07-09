@@ -72,3 +72,4 @@ def play_game():
             player_board[guess_row][guess_col] = "M"
 
         # Computer's turn
+        comp_guess_row = random.randint(0, board_size - 1)
