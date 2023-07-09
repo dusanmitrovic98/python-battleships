@@ -33,3 +33,4 @@ def place_ships(board, num_ships):
             board[ship_row][ship_col] = "S"
             ships_placed += 1
 
+# Function to play the game
