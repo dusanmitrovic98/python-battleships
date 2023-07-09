@@ -91,3 +91,4 @@ def play_game():
         print("Computer's Board:")
         print_board(board)
 
+        if player_ships == 0:
