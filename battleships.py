@@ -35,3 +35,4 @@ def place_ships(board, num_ships):
 
 # Function to play the game
 def play_game():
+    print("Let's play Battleship!")
