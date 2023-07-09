@@ -29,3 +29,4 @@ def place_ships(board, num_ships):
     while ships_placed < num_ships:
         ship_row = random.randint(0, board_size - 1)
         ship_col = random.randint(0, board_size - 1)
+        if board[ship_row][ship_col] == " ":
