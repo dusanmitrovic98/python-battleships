@@ -19,3 +19,4 @@ def print_board(board):
     line = " " + "----" * board_size
     print("  " + " ".join([str(i) for i in range(board_size)]))
     print(line)
+    for i, row in enumerate(board):
