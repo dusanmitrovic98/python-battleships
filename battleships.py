@@ -71,3 +71,4 @@ def play_game():
             print("You missed the battleship!")
             player_board[guess_row][guess_col] = "M"
 
+        # Computer's turn
