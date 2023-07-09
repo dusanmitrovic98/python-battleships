@@ -21,3 +21,4 @@ def print_board(board):
     print(line)
     for i, row in enumerate(board):
         print(str(i) + " | " + " | ".join([symbols[ch] for ch in row]) + " |")
+        print(line)
