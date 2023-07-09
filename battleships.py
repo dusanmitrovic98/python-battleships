@@ -32,3 +32,4 @@ def place_ships(board, num_ships):
         if board[ship_row][ship_col] == " ":
             board[ship_row][ship_col] = "S"
             ships_placed += 1
+
