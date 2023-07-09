@@ -60,3 +60,4 @@ def play_game():
             or guess_col < 0
             or guess_col >= board_size
         ):
+            print("Oops, that's not even in the ocean.")
