@@ -86,3 +86,4 @@ def play_game():
             board[comp_guess_row][comp_guess_col] = "M"
 
         # Print the updated boards
+        print("Player's Board:")
