@@ -15,3 +15,4 @@ for x in range(board_size):
 
 # Function to print the game board
 def print_board(board):
+    symbols = {" ": " ", "S": " ", "X": "X", "M": "M"}
