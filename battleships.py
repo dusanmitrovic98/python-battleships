@@ -14,3 +14,4 @@ for x in range(board_size):
     computer_board.append([" "] * board_size)
 
 # Function to print the game board
+def print_board(board):
