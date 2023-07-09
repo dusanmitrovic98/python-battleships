@@ -41,3 +41,4 @@ def play_game():
     print("Computer's Board:")
     print_board(board)
     player_ships = 5  # Number of player's ships
+    computer_ships = 5  # Number of computer's ships
