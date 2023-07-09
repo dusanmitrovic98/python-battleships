@@ -9,3 +9,4 @@ for x in range(board_size):
 # Create the player and computer boards
 player_board = []
 computer_board = []
+for x in range(board_size):
