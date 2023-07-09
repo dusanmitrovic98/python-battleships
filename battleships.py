@@ -70,3 +70,4 @@ def play_game():
         else:
             print("You missed the battleship!")
             player_board[guess_row][guess_col] = "M"
+
