@@ -55,3 +55,4 @@ def play_game():
         guess_col = int(input("Guess Col (0-9): "))
 
         if (
+            guess_row < 0
