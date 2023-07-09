@@ -11,3 +11,4 @@ player_board = []
 computer_board = []
 for x in range(board_size):
     player_board.append([" "] * board_size)
+    computer_board.append([" "] * board_size)
