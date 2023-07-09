@@ -39,3 +39,4 @@ def play_game():
     print("Player's Board:")
     print_board(player_board)
     print("Computer's Board:")
+    print_board(board)
