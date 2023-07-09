@@ -25,3 +25,4 @@ def print_board(board):
 
 # Function to place ships on the board
 def place_ships(board, num_ships):
+    ships_placed = 0
