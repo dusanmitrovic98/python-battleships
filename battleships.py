@@ -54,3 +54,4 @@ def play_game():
         guess_row = int(input("Guess Row (0-9): "))
         guess_col = int(input("Guess Col (0-9): "))
 
+        if (
