@@ -47,3 +47,4 @@ def play_game():
     # Place computer's ships
     place_ships(computer_board, computer_ships)
 
+    turns = 10  # Number of turns allowed
