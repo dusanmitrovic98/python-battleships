@@ -79,3 +79,4 @@ def play_game():
             print("Computer guessed that one already.")
         elif board[comp_guess_row][comp_guess_col] == "S":
             print("Oh no! The computer sunk one of your battleships!")
+            board[comp_guess_row][comp_guess_col] = "X"
