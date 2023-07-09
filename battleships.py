@@ -23,3 +23,4 @@ def print_board(board):
         print(str(i) + " | " + " | ".join([symbols[ch] for ch in row]) + " |")
         print(line)
 
+# Function to place ships on the board
