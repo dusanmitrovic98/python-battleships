@@ -44,3 +44,4 @@ def play_game():
     computer_ships = 5  # Number of computer's ships
     place_ships(player_board, player_ships)  # Place player's ships
 
+    # Place computer's ships
