@@ -58,3 +58,4 @@ def play_game():
             guess_row < 0
             or guess_row >= board_size
             or guess_col < 0
+            or guess_col >= board_size
