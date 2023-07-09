@@ -38,3 +38,4 @@ def play_game():
     print("Let's play Battleship!")
     print("Player's Board:")
     print_board(player_board)
+    print("Computer's Board:")
