@@ -84,3 +84,4 @@ def play_game():
         else:
             print("The computer missed your battleship!")
             board[comp_guess_row][comp_guess_col] = "M"
+
