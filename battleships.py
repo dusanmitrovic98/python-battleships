@@ -52,3 +52,4 @@ def play_game():
     for turn in range(turns):
         print("Turn", turn + 1)
         guess_row = int(input("Guess Row (0-9): "))
+        guess_col = int(input("Guess Col (0-9): "))
